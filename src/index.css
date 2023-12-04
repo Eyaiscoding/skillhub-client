@@ -1,0 +1,46 @@
+/*global default styling here*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600;700&family=Oswald:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arimo;
+}
+
+:root{
+    --primary-color:#fb995d; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: Oswald;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.container{
+
+    width: 90%;
+    margin:auto;
+}
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+
+.text-primary{ color: var(--primary-color)}
