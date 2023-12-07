@@ -1,9 +1,10 @@
 import React from "react";
 import'./navbar.styles.css';
 
-const Navbar=() => {
+const Navbar=({ darkTheme }) => {
+
     return(
-        <section className="navbar-container">
+        <section className={ `navbar-container  ${darkTheme ? 'background-dark relative' : 'background-transparent'}`}>
             <div className="container flex justify-between align-center">
                 <a href="#" className="logo"> RFC <span className="text-primary">SkillHub</span> </a>
                 <nav className="nav-links-container">
