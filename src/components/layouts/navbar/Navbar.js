@@ -7,7 +7,7 @@ const Navbar=({ darkTheme }) => {
     return(
         <section className={ `navbar-container  ${darkTheme ? 'background-dark relative' : 'background-transparent'}`}>
             <div className="container flex justify-between align-center">
-                <a href="#" className="logo"> RFC <span className="text-primary">SkillHub</span> </a>
+                <a href="/" className="logo"> RFC <span className="text-primary">SkillHub</span> </a>
                 <nav className="nav-links-container">
                     <Link to={"/"} className="nav-links" >Home</Link>
                     <Link to={"/courses"} className="nav-links" >Courses</Link>
