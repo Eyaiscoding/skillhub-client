@@ -2,6 +2,8 @@ import React from "react";
 import './signup.styles.css';
 import AuthBgImg from '../../assets/auth-bg.jpg'
 import Navbar from "../../components/layouts/navbar/Navbar";
+import AuthForm from "../../components/forms/authForm/AuthForm";
+
 const Signup = () => {
     return(
         <React.Fragment>
@@ -15,36 +17,7 @@ const Signup = () => {
                     <div className="content-wrapper">
                         <h2>Sign Up</h2>
                         <p>Create a new account on RFC SkillHub</p>
-
-                        <form>
-                            <div className="form-group">
-                                <label>First Name</label>
-                                <input type="text" className="form-input" placeholder="Enter your first name" />
-                            </div>
-                            <div className="form-group">
-                                <label>Last Name</label>
-                                <input type="text" className="form-input" placeholder="Enter your last name" />
-                            </div>
-                            <div className="form-group">
-                                <label>Phone number</label>
-                                <input type="tel" className="form-input" placeholder="Enter your phone number" />
-                            </div>
-                            <div className="form-group">
-                                <label>Department</label>
-                                <input type="text" className="form-input" placeholder="Enter your department" />
-                            </div>
-                            <div className="form-group">
-                                <label>Email address</label>
-                                <input type="email" className="form-input" placeholder="Enter your email address" />
-                            </div>
-                            <div className="form-group">
-                                <label>Password</label>
-                                <input type="password" className="form-input" placeholder="Enter your password" />
-                            </div>
-                            <div className="form-group">
-                                <input type="submit" className="button-primary" value="Sign up" />
-                            </div>
-                        </form>
+                        <AuthForm/>
                     </div>
                     </div>
                 </div>
