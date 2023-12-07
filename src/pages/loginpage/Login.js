@@ -4,7 +4,7 @@ import './login.styles.css';
 const Login = () => {
     return(
         <section>
-            <h1>Login</h1>
+            <h1>Log In</h1>
         </section>
     )
 }

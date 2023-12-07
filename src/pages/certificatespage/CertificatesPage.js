@@ -9,7 +9,7 @@ const CertificatesPage = () =>  {
         <section>
             <Navbar darkTheme={true}/>
             <div className="search-container">
-                <h2>Find the certification exams here</h2>
+                <h2>Find the certification exam session that suits you</h2>
                 <SearchInputForm darkTheme={false}/>
             </div>
             <CertifListingAll />

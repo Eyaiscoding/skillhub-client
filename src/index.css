@@ -8,7 +8,7 @@
 }
 
 :root{
-    --primary-color:#fb995d; 
+    --primary-color:#e47528; 
 }
 
 h1,
@@ -44,3 +44,20 @@ h1{
 }
 
 .text-primary{ color: var(--primary-color)}
+
+.button-primary{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 5px #ddd;
+    transition: 0.2s ease-in;
+    border: none;
+    font-family: Arimo;
+}
+
+.button-primary:hover{
+    background-color: #222;
+}
