@@ -5,15 +5,21 @@ import CoursesPage from "./pages/coursespage/CoursesPage";
 import CourseDetails from "./pages/coursedetailspage/CourseDetails";
 import CertificatesPage from "./pages/certificatespage/CertificatesPage";
 import CertificateDetails from "./pages/certificatedetailspage/CertificateDetails";
+import Login from "./pages/loginpage/Login";
+import Signup from "./pages/signuppage/Signup";
+
 //App.js is our main root component in the components tree
 //creating our first component 
+
 const App=() => {
     return(
         <div>
             <Routes>
                 <Route path="/" element={<HomePage />}  />
                 <Route path="/courses" element={<CoursesPage />}/>
-                <Route path="/certificates" element={<CertificatesPage />} />
+                <Route path="/certifications" element={<CertificatesPage />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<Signup />} />
                 <Route path="/course-details/:id" element={<CourseDetails/>}/>
                 <Route path="/certificate-details/:id" element={<CertificateDetails/>}/>
             </Routes>
