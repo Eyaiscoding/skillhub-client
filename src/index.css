@@ -44,3 +44,6 @@ h1{
 }
 
 .text-primary{ color: var(--primary-color)}
+span{
+    font-family: Chivo Mono;
+}
