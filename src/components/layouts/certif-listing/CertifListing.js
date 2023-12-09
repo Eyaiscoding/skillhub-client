@@ -14,6 +14,9 @@ const CertifListing =() => {
                   <CertifListingCard/>
                   <CertifListingCard/>
 
+                 
+                 
+                 
              </div>
           </div>
       </div>

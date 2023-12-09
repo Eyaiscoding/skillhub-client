@@ -1,12 +1,18 @@
 //homepage component
 import React from "react";
 import Showcase from "../../components/layouts/showcase/Showcase";
-import CertifListing from "../../components/layouts/certiflisting/CertifListing";
+
+import CertifListing from "../../components/layouts/certif-listing/CertifListing";
+
+
 const HomePage=() => {
     return(
         <section>
             <Showcase/>
             <CertifListing/>
+
+
+
         </section>
     );
         

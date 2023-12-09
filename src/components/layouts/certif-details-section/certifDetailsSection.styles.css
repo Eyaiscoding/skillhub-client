@@ -1,0 +1,16 @@
+.details-section-container{
+    padding-top: 8rem;
+}
+.flex-container{
+    display: flex ;
+    justify-content: space-between;
+
+}
+.certif-img-container, .certif-detail-container{
+     width: 50% ;
+
+}
+.certif-img-container img{
+     height: 300px;
+
+}

@@ -1,9 +1,13 @@
 import React from "react";
+import Navbar from "../../components/layouts/navbar/Navbar";
+import CourseDetailsSection from "../../components/layouts/certif-details-section/CertifDetailsSection"
 
 const CourseDetails = () => {
     return(
     <section>
-        <h1>Course Details Page</h1>
+        <Navbar darkTheme={true }/>
+
+        <CourseDetailsSection />
     </section>
     );
 }

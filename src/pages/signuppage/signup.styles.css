@@ -5,13 +5,21 @@
 }
 
 .signup-img-container{
+<<<<<<< HEAD
     width: 45%;
+=======
+    width: 48%;
+>>>>>>> 967bb1bb16b8da7eb3252a1e35c93ac445520b95
     overflow: hidden;
 }
 
 .signup-img-container img{
     width: 100%;
+<<<<<<< HEAD
     height: 100vh;
+=======
+    height: 110vh;
+>>>>>>> 967bb1bb16b8da7eb3252a1e35c93ac445520b95
     object-fit: cover;
   
 }
@@ -22,9 +30,35 @@ width: 50%;
 
 .content-wrapper{
     padding-right: 3rem;
+<<<<<<< HEAD
+=======
+    padding-top: 3rem;
+>>>>>>> 967bb1bb16b8da7eb3252a1e35c93ac445520b95
 }
 
 .content-wrapper h2 {
     padding-bottom: 1rem;
     font-size: 2rem;
+<<<<<<< HEAD
 }
+=======
+}
+
+.content-wrapper p {
+    padding-bottom: 1rem;
+
+}
+
+.form-group{
+    padding: 0.25rem 0;
+}
+
+.form-input{
+    width:100%;
+    padding: 1rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+>>>>>>> 967bb1bb16b8da7eb3252a1e35c93ac445520b95

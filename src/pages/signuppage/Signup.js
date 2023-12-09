@@ -19,12 +19,17 @@ const Signup = () => {
                         <p>Create a new account on RFC SkillHub</p>
                         <form>
                         <div className="form-group">
+<<<<<<< HEAD
                                     <label>First Name</label>
                                     <input type="text" className="form-input" placeholder="Enter your first name" />
                                 </div>
                                 <div className="form-group">
                                     <label>Last Name</label>
                                     <input type="text" className="form-input" placeholder="Enter your email address" />
+=======
+                                    <label>Full Name</label>
+                                    <input type="text" className="form-input" placeholder="Enter your full name" />
+>>>>>>> 967bb1bb16b8da7eb3252a1e35c93ac445520b95
                                 </div>
                                 <div className="form-group">
                                     <label>Department</label>

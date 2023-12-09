@@ -1,0 +1,17 @@
+.detail-section-container{
+    padding-top: 8rem;
+}
+
+.flex-container{
+    display: flex ;
+    justify-content: space-between;
+
+}
+.course-img-container, .course-detail-container{
+     width: 50% ;
+
+}
+.course-img-container img{
+    height: 300px;
+    
+}

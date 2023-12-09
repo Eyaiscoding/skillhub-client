@@ -1,5 +1,5 @@
 import React from "react";
-import './certifListingCard.styles.css';
+import './courseListingCard.styles.css';
 import CourseImage from "../../../../assets/Courses-img/k8s.png";
 
 const CourseListingCard =() => {

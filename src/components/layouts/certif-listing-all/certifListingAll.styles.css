@@ -1,0 +1,13 @@
+.certif-listing-all-container{
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5rem;
+}
+.grid-Item{
+    display: flex;
+    justify-content: center;
+}
