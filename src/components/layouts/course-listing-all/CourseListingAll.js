@@ -5,7 +5,6 @@ import CourseListingCard from '../cards/course-listing-card/CourseListingCard'
 const CourseListingAll = () => {
     return (
         <section className="course-listing-all-container">
-            <h1>Course Listing All</h1>
             <div className="container"/>
                <div className="grid-container">
                   <div className="grid-Item">
