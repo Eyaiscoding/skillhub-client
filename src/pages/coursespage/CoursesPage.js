@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/layouts/navbar/Navbar";
 import SearchInputForm from '../../components/forms/searchInputForm/SearchInputForm'
 import './coursesPage.style.css'
-import CourseListingAll from "../../components/layouts/courselistingall/CourseListingAll";
+import CourseListingAll from "../../components/layouts/course-listing-all/CourseListingAll";
 
 const CoursesPage = () => {
     return(

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/layouts/navbar/Navbar";
 import SearchInputForm from '../../components/forms/searchInputForm/SearchInputForm'
 import './certificatesPage.style.css'
-import CertifListingAll from "../../components/layouts/certiflistingall/CertifListingAll";
+import CertifListingAll from "../../components/layouts/certif-listing-all/CertifListingAll";
 
 const CertificatesPage = () =>  {
     return(
