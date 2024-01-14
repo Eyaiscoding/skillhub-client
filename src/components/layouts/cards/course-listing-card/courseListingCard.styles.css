@@ -1,46 +1,53 @@
-.course-listing-card{
-    border: 1px solid #aaa;
-    width: fit-content; 
-    padding-right: 2.8rem;
-    padding-top: 3rem; 
-    padding-bottom: 2rem; 
-    border-radius : 10px;
-
+.course-listing-card {
+  border: 1px solid #aaa;
+  width: fit-content;
+  padding-right: 2.8rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  border-radius: 10px;
 }
-.course-listing-image{
- width: 100px; 
-
+.course-listing-image {
+  width: 180px;
+  padding-left: 6rem;
 }
-.course-Listing-details-container{
-padding-top: 1rem;
-padding-left: 2rem;
-
+.course-Listing-details-container {
+  padding-top: 1rem;
+  padding-left: 2rem;
 }
 
-.level-of-complexity{
- font-size: 0.9rem; 
- padding: 0.5rem 0;  
-
+.level-of-complexity {
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
 }
-.course-assets{
+.course-description {
+  font-size: 1rem;
+  font-weight: 100;
+  color: var(--primary-color-bright);
+}
+.course-duration {
+padding-top: 0.5rem;  
 font-size: 1rem;
-font-weight: 100;
-color: var(--primary-color-bright);
+  font-weight: 100;
+  color: var(--primary-color-bright);
 }
-.course-listing-button{
- display: inline-block;
- background-color: var(--primary-color-bright);
- width: 100%;
- padding: 1rem 0;
- text-align:center ;
- color: white;
- font-family: chivo Mono;
- text-decoration: none;
- margin-top: 2rem;
- transition: 0.2s ease-in;
-
+.course-target {
+    padding-top: 0.5rem; 
+    font-size: 1rem;
+  font-weight: 100;
+  color: orange;
 }
-.course-listing-button:hover{
-    background-color: #000;
-
+.course-listing-button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  color: white;
+  font-family: chivo Mono;
+  text-decoration: none;
+  margin-top: 2rem;
+  transition: 0.2s ease-in;
+}
+.course-listing-button:hover {
+  background-color: #000;
 }

@@ -1,5 +1,6 @@
 .detail-section-container{
-    padding-top: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
 }
 
 .flex-container{
@@ -12,6 +13,35 @@
 
 }
 .course-img-container img{
-    height: 300px;
+    height: 350px;
+    margin-top: 1.5rem;
+    border: 1px solid #dddd;
     
+}
+
+.course-detail-container h2{
+    font-size: 2rem;
+    padding-right: 6rem;
+}
+
+.course-detail-container p {
+    padding: 1rem 0;
+}
+
+.course-description{
+    line-height: 1.5rem;
+}
+
+.add-button{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 5px #dddd;
+    transition: 0.2s ease-in;
+}
+
+.add-button:hover{
+    background-color: #222;
 }

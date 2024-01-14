@@ -1,46 +1,62 @@
-.certif-listing-card{
-    border: 1px solid #aaa;
-    width: fit-content;
-    padding-right: 1rem;
-    padding-top: 3rem; 
-    padding-bottom: 2rem; 
-    border-radius : 10px;
-
+.certif-listing-card {
+  border: 1px solid #aaa;
+  width: fit-content;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  border-radius: 10px;
 }
-.certif-listing-image{
- width: 20px; 
-
+.certif-listing-image {
+  width: 150px;
+  padding-left: 5rem;
+  
 }
-.certif-Listing-details-container{
-   padding-top: 1rem;
-   padding-left: 2rem;
-
+.certif-Listing-details-container {
+  padding-top: 1rem;
+  padding-left: 2rem;
 }
 
-.level{
- font-size: 0.9rem; 
- padding: 0.5rem 0;  
-
+.level {
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
 }
-.certif-assets{
-   font-size: 1rem;
-   font-weight: 100;
-   color: var(--primary-color-bright);
+.date-of-exam {
+  padding-top: 0.25rem;
+  font-size: 1rem;
+  font-weight: 100;
+  color: var(--primary-color-bright);
 }
-.certif-listing-button{
- display: inline-block;
- background-color: var(--primary-color-bright);
- width: 100%;
- padding: 1rem 0;
- text-align:center ;
- color: white;
- font-family: chivo Mono;
- text-decoration: none;
- margin-top: 2rem;
- transition: 0.2s ease-in;
-
+.place-of-exam {
+  padding-top: 0.25rem;
+  font-size: 1rem;
+  font-weight: 100;
+  color: var(--primary-color-bright);
 }
-.certif-listing-button:hover{
-    background-color: #000;
+.duration-of-exam {
+  padding-top: 0.25rem;
+  font-size: 1rem;
+  font-weight: 100;
+  color: var(--primary-color-bright);
+}
 
+.target-of-exam {
+  padding-top: 0.25rem;
+  font-size: 1rem;
+  font-weight: 100;
+  color: orange;
+}
+.certif-listing-button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  color: white;
+  font-family: Arimo;
+  text-decoration: none;
+  margin-top: 2rem;
+  transition: 0.2s ease-in;
+}
+.certif-listing-button:hover {
+  background-color: #000;
 }
