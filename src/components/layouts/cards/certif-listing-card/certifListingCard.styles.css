@@ -48,6 +48,7 @@
 .certif-listing-button {
   display: inline-block;
   background-color: var(--primary-color);
+  
   width: 100%;
   padding: 1rem 0;
   text-align: center;

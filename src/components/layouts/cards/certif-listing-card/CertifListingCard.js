@@ -19,7 +19,7 @@ const CertifListingCard = () => {
         <p className="duration-of-exam">Duration : 2 Hours</p>
         <p className="target-of-exam">Target : Commerce Team</p>
         <a href="#" className="certif-listing-button">
-          Button
+          View
         </a>
       </div>
     </div>

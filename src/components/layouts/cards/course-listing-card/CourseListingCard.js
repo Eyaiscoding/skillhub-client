@@ -19,7 +19,7 @@ const CourseListingCard = () => {
         <p className="course-duration">Duration : Up to 120h</p>
         <p className="course-target">Target : Commerce Team</p>
         <a href="#" className="course-listing-button">
-          Button
+          View
         </a>
       </div>
     </div>
