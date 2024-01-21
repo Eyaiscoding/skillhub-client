@@ -4,6 +4,7 @@ import AuthBgImg from '../../assets/auth-bg.jpg'
 import Navbar from "../../components/layouts/navbar/Navbar";
 import { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 
 const Signup = () => {

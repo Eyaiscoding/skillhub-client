@@ -13,7 +13,7 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(email,password);
-        axios.post('http://localhost:4000/auth/login',{
+        axios.post('http://'+process.env.API_GATEWAY_URL+':4000/auth/login',{
             email:email,
             password:password,
         })

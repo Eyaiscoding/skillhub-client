@@ -1,36 +1,67 @@
+# Deployment for User UI
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: user-nginx-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: react-nginx-app
+      app: user-nginx-app
   template:
     metadata:
       labels:
-        app: react-nginx-app
+        app: user-nginx-app
     spec:
-      nodeSelector:
-        "kubernetes.io/os": linux
       containers:
-        - name: react-nginx-app
+        - name: user-nginx-app
           image: skillhub.azurecr.io/react-nginx-app:latest
           ports:
             - containerPort: 8080
-              name: http
 ---
+# Service for User UI
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: nginx
-  name: nginx-service
+  name: user-nginx-service
 spec:
   ports:
     - port: 80
       targetPort: 8080
-      name: http
   selector:
-    app: react-nginx-app
+    app: user-nginx-app
+  type: LoadBalancer
+---
+# Deployment for Admin UI
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-admin-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-admin-app
+  template:
+    metadata:
+      labels:
+        app: nginx-admin-app
+    spec:
+      containers:
+        - name: nginx-admin-app
+          image: skillhub.azurecr.io/nginx-admin-app:latest
+          ports:
+            - containerPort: 8080
+---
+# Service for Admin UI
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-admin-service
+spec:
+  ports:
+    - port: 80
+      targetPort: 8080
+  selector:
+    app: nginx-admin-app
   type: LoadBalancer
