@@ -7,7 +7,7 @@ import CertificatesPage from "./pages/certificatespage/CertificatesPage";
 import CertificateDetails from "./pages/certificatedetailspage/CertificateDetails";
 import Login from "./pages/loginpage/Login";
 import Signup from "./pages/signuppage/Signup";
-
+import ToDoListPage from './pages/to-do-list-page/toDoListPage';
 //App.js is our main root component in the components tree
 //creating our first component 
 
@@ -22,6 +22,7 @@ const App=() => {
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/course-details/:id" element={<CourseDetails/>} />
                 <Route path="/certif-details/:id" element={<CertificateDetails/>}/>
+                <Route path="/todolist" element={<ToDoListPage />}/>
             </Routes>
         </div>
     )
